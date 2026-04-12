@@ -2,6 +2,7 @@ import { Outlet } from "react-router";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { DomainForSaleBanner } from "./DomainForSaleBanner";
+import RouteTracker from "./RouteTracker";
 // import { VisitorCounter } from "./VisitorCounter";
 
 export function Root() {
@@ -10,6 +11,7 @@ export function Root() {
       <DomainForSaleBanner />
       <Navbar />
       <main className="flex-1">
+        <RouteTracker />
         <Outlet />
       </main>
       <Footer />
