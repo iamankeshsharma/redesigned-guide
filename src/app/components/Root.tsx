@@ -2,7 +2,7 @@ import { Outlet } from "react-router";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { DomainForSaleBanner } from "./DomainForSaleBanner";
-import { VisitorCounter } from "./VisitorCounter";
+// import { VisitorCounter } from "./VisitorCounter";
 
 export function Root() {
   return (
@@ -13,7 +13,7 @@ export function Root() {
         <Outlet />
       </main>
       <Footer />
-      <VisitorCounter />
+      {/* <VisitorCounter /> */}
     </div>
   );
 }

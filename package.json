@@ -1,10 +1,11 @@
 {
-  "name": "@figma/my-make-file",
+  "name": "@shree-krishna-engineering/website",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "dev": "vite dev"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

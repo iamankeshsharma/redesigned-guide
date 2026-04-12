@@ -196,7 +196,7 @@ export function About() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://your-portfolio-domain.com"
+                href="https://urban-octo-train-549547826722.us-central1.run.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors font-semibold shadow-lg"
@@ -205,7 +205,8 @@ export function About() {
                 <ArrowRight size={20} />
               </a>
               <a
-                href="/contact"
+                href="https://linktr.ee/ankeshsharma"
+                target="_blank"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-primary-foreground border border-primary-foreground/20 rounded-lg hover:bg-white/20 transition-colors font-semibold"
               >
                 Work With Us

@@ -5,7 +5,6 @@ import { Facebook, Twitter, Linkedin, Youtube, Github } from "lucide-react";
 const footerLinks = {
   company: [
     { label: "About Us", path: "/about" },
-    { label: "Contact", path: "/contact" },
     { label: "Blog", path: "/blog" },
   ],
   resources: [
@@ -119,7 +118,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-primary-foreground/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-primary-foreground/60">
-              © {new Date().getFullYear()} shreekrishnaengineerings.com. All rights reserved.
+              © {new Date().getFullYear()} Anramium. All rights reserved.
             </p>
             <p className="text-sm text-primary-foreground/60 italic">
               This website is for educational purposes only.
